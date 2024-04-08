@@ -1,0 +1,13 @@
+.small-image {
+  max-height: 400px;
+  max-width: 100%;
+}
+
+.datathon-video {
+  /* margin-left: 50vw;
+  transform: translate(-50%); */
+  width: 100%; /* Fills the available width */
+  height: 0; /* Collapses the height */
+  padding-bottom: (desired video height) / (desired video width) * 100%; /* Sets aspect ratio */
+}
+
